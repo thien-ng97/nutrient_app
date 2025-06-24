@@ -4,6 +4,9 @@ import java.sql.*;
 import model.UserProfile;
 import util.DatabaseManager;
 
+
+// With use of AI
+
 public class UserDAO {
 	public void saveUser(UserProfile user) {
         String sql = "INSERT INTO users (name, gender, date_of_birth, height_cm, weight_kg) VALUES (?, ?, ?, ?, ?)";

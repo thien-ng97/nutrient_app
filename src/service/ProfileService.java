@@ -3,6 +3,9 @@ package service;
 import model.UserProfile;
 import dao.UserDAO;
 
+
+// With use of AI
+
 public class ProfileService {
 	private UserDAO userDAO = new UserDAO();
 

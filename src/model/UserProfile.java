@@ -2,6 +2,9 @@ package model;
 
 import java.time.LocalDate;
 
+
+// With use of AI
+
 public class UserProfile {
 	private int id;
     private String name;
@@ -42,6 +45,14 @@ public class UserProfile {
     	return this.weightKg;
     }
     
+ // NEWLY ADDED
+    public int getId() {
+    	return this.id;
+    }
     
+    // NEWLY ADDED
+    public void setId(int id) {
+    	this.id = id;
+    }
 
 }

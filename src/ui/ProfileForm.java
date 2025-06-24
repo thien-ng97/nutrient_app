@@ -6,6 +6,9 @@ import java.time.LocalDate;
 import service.ProfileService;
 import model.UserProfile;
 
+
+// With use of AI
+
 public class ProfileForm extends JFrame {
 	public ProfileForm() {
         setTitle("Create User Profile");
